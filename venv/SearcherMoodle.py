@@ -11,4 +11,4 @@ driver.find_element_by_id('loginbtn').click()
 
 driver.find_element_by_id('shortsearchbox').send_keys('Журенков')
 time.sleep(15)
-driver.find_element_by_class_name('btn btn-secondary').click()
+driver.find_element_by_class_name('btn-secondary').submit()
